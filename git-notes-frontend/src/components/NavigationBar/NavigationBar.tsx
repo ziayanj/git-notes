@@ -9,7 +9,7 @@ import UserMenu from '../UserMenu/UserMenu';
 import { loginUser } from '../../redux/slices/authSlice';
 import { queryGists } from '../../redux/slices/gistsSlice';
 import type { RootState, AppDispatch } from '../../redux/store';
-import { ReactComponent as Logo } from '../../assets/icons/logo.svg';
+import { ReactComponent as Logo } from '../../assets/icons/gitLogo.svg';
 import { ReactComponent as SearchIcon } from '../../assets/icons/searchIcon.svg';
 
 import {

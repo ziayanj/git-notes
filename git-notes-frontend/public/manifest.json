@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Git Gists Tracker",
+  "name": "Git Gists Tracker",
   "icons": [
     {
       "src": "favicon.ico",

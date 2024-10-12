@@ -1,7 +1,10 @@
 import axios from 'axios';
 
 const baseService = axios.create({
-  baseURL: 'http://localhost:4000',
+  baseURL:
+    process.env.NODE_ENV === "production"
+      ? "https://git-gists-backend-production.up.railway.app"
+      : "http://localhost:4000",
   headers: {
     'Content-Type': 'application/json',
   },

@@ -116,7 +116,6 @@ const OwnerHeader = ({ gistDetails, showActions = false }: OwnerHeaderProps) => 
               {isStarred ? <FilledStarIcon /> : <StarIcon />}
               <GistActionText>{isStarred ? 'Unstar' : 'Star'}</GistActionText>
             </GistActionImage>
-            <GistActionContent>20</GistActionContent>
           </GistAction>
         </GistActionsContainer>
       )}
